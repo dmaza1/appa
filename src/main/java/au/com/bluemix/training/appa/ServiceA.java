@@ -6,7 +6,7 @@ import javax.jws.WebService;
 
 @Stateless
 @LocalBean
-@WebService(serviceName = "ServiceAService", portName = "ServiceAPort", endpointInterface = "appa.IServiceA", targetNamespace = "http://appa/ServiceA")
+@WebService(serviceName = "ServiceAService", portName = "ServiceAPort", endpointInterface = "au.com.bluemix.training.appa.IServiceA", targetNamespace = "http://appa/ServiceA")
 public class ServiceA implements IServiceA {
 
 	@Override
